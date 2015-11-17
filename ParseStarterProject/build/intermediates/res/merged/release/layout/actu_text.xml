@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.bluejamesbond.text.DocumentView
+        xmlns:ext="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/titleEvangile"
+        android:id="@+id/articleContent"
+        ext:documentView_antialias="true"
+        ext:documentView_cacheConfig="no_cache"
+        ext:documentView_lineHeightMultiplier="1.2"
+        ext:documentView_reverse="false"
+        ext:documentView_textAlignment="justified"
+        ext:documentView_textFormat="plain"
+        ext:documentView_textSize="16sp"
+        ext:documentView_insetPaddingLeft="12dp"
+        ext:documentView_insetPaddingRight="12dp"
+        ext:documentView_insetPaddingBottom="8dp"
+        ext:documentView_textSubPixel="true"/>
+
+</LinearLayout><!-- From: file:/C:/Users/maximevin/Documents/Android%20projects/Paroisse%20St%20Rieul/ParseStarterProject/src/main/res/layout/actu_text.xml -->

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flipboard.bottomsheet.commons.ImagePickerSheetImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/thumb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+<!-- From: file:/home/mrietveld/programming/bottomsheet/bottomsheet-commons/src/main/res/layout/sheet_image_grid_item.xml --><!-- From: file:/C:/Users/maximevin/Documents/Android%20projects/Paroisse%20St%20Rieul/ParseStarterProject/build/intermediates/exploded-aar/com.flipboard/bottomsheet-commons/1.4.3/res/layout/sheet_image_grid_item.xml -->

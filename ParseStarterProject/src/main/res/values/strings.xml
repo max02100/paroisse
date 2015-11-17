@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Paroisse St Rieul</string>
+
+    <string name="parse_app_id">YOUR_APPLICATION_ID</string>
+    <string name="parse_client_key">YOUR_CLIENT_KEY</string>
+
+
+    <string name="hello_world">Hello World!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="contact_name">
+        <item>Camille Baillet</item>
+        <item>Stephan Janssens</item>
+        <item>Esther van de Put</item>
+        <item>Isabelle Delattre</item>
+        <item>Gilles de Prins</item>
+        <item>Brigitte Guilbault</item>
+        <item>Béatrice Leclere</item>
+        <item>Virginie Bourdon</item>
+        <item>Mireille Bataille</item>
+        <item>Philippe Quenardel</item>
+        <item>Florence Senlis</item>
+        <item>Chantal Chapuis</item>
+    </string-array>
+
+    <string-array name="contact_for_what">
+        <item>Secrétariat de la paroisse - Presbytère</item>
+        <item>Parler à un prêtre</item>
+        <item>Rencontrer des chrétiens</item>
+        <item>Découvrir la foi catholique</item>
+        <item>Demander le baptême</item>
+        <item>Demander le baptême</item>
+        <item>Cathéchisme</item>
+        <item>Aumônerie</item>
+        <item>Association familiale</item>
+        <item>Association Saint Vincent de Paul</item>
+        <item>Equipe Notre Dame</item>
+        <item>Obsèques</item>
+    </string-array>
+
+    <string-array name="contact_job">
+        <item>Coordination paroissiale</item>
+        <item>Permanence du père Stephan Janssens à la cathédrale</item>
+        <item>L\'équipe « Accueil - Trait d\'union » cherche à concourir au développement des relations fraternelles au sein de la paroisse Saint Rieul, en ayant tout particulièrement le soucis des nouveaux arrivants et nouveaux paroissiens.</item>
+        <item>Parcours Alpha</item>
+        <item>Baptême des adultes</item>
+        <item>Baptême des enfants</item>
+        <item>Pour les enfants</item>
+        <item>Pour les jeunes</item>
+        <item>Association familiale catholique</item>
+        <item>Aide aux plus pauvres et personnes isolées</item>
+        <item>Faire grandir son couple</item>
+        <item>Accompagnement des familles en deuil</item>
+    </string-array>
+
+    <string-array name="contact_email">
+        <item>contact@paroissesaintrieul.org</item>
+        <item>s.janssens@wanadoo.fr</item>
+        <item>accueil.saintrieul@gmail.com</item>
+        <item>alpha.senlis@gmail.com</item>
+        <item>gildp@free.fr</item>
+        <item>bgguilbault@free.fr</item>
+        <item>kt@paroissesaintrieul.org</item>
+        <item>aumoneriesenlis@gmail.com</item>
+        <item>m.bataille.afc@gmail.com  </item>
+        <item>phquenardel@yahoo.fr</item>
+        <item>famille.senlis@gmail.com</item>
+        <item>chantalchapuis.paroisse@gmail.com</item>
+    </string-array>
+
+    <string-array name="jours_semaine">
+        <item>Lundi</item>
+        <item>Mardi</item>
+        <item>Mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+    </string-array>
+
+    <string-array name="jours_weekend">
+        <item>Samedi</item>
+        <item>Dimanche</item>
+    </string-array>
+
+    <string-array name="horaires_semaine">
+        <item>9h Monastère des Clarisses//18h30 Cathédrale</item>
+        <item>9h Monastère des Clarisses//9h Cathédrale, suivie de l\'Adoration eucharistique jusqu\'à 19h, sans interruption (sauf vacances scolaires)</item>
+        <item>9h Monastère des Clarisses//18h30 Cathédrale</item>
+        <item>9h Monastère des Clarisses//9h Cathédrale (chapelle pré-romane)//18h Chapelle Notre-Dame de Bon-Secours, suivie d\'&#189; heure d\'adoration eucharistique et de confessions (demander au prêtre à la fin de la messe)</item>
+        <item>9h Monastère des Clarisses//12h30 Collège Anne-Marie Javouhey consulter le calendrier//18h30 Cathédrale (chapelle pré-romane)</item>
+    </string-array>
+
+    <string-array name="horaires_weekend">
+        <item>9h Monastère des Clarisses//18 h 30 un village de la communauté de Courteuil / Aumont / Avilly-Saint-Léonard:
+            ¤ samedi précédant le 1er dimanche du mois:Courteuil
+            ¤ samedi précédant le 2e dimanche du mois:Aumont
+            ¤ samedi précédant le 3e dimanche du mois:Avilly-Saint-Léonard//18h30 un village de la communauté de Borest / Fontaine-Chaâlis / Montlognon:
+            ¤ samedi précédant le 2e dimanche du mois:Fontaine-Chaâlis
+            ¤ samedi précédant le 3e dimanche du mois:Borest
+            ¤ samedi précédant le 4e dimanche du mois:Montlognon//17h30 à 18h45:Permanence de confessions à la cathédrale (chapelle du Bailly)//19h	Cathédrale de Senlis</item>
+        <item>9h Monastère des Clarisses//9h30 1er, 3e et 5e dimanche du mois:chapelle Notre-Dame de Bon-Secours//9h30 1er dimanche du mois:Villers Saint-Frambourg, 3e dimanche du mois:Brasseuse, Villeneuve sur Verberie, Ognon par alternance//10h30 1er dimanche du mois:Raray (mois "pair") ou Montépilloy (mois "impair") autres dimanches : Rully (2e, 3e, 4e et 5e dimanche)//11h Cathédrale de Senlis//11h15 1er  dimanche du mois : Barbery, autres dimanches : Chamant (2e, 3e, 4e et 5e dimanche)
+
+en été, les messes ont lieu à Mont-l\'Evêque (mai, juin, septembre)//18h Cathédrale de Senlis</item>
+    </string-array>
+
+    <string name="about_evangile">« L\'Evangile au Quotidien » est un service proposé par l\'association internationale Evangelizo. La mission d\'Evangelizo est de diffuser l\'Évangile à travers le monde par Internet dans toutes les langues et de développer les moyens techniques à cette fin. L\'équipe Evangelizo est composée de plus de 70 laïcs et religieux catholiques de diverses communautés, congrégations ou sensibilités spirituelles (Bénédictins, Carmélites, Cisterciens, Fraternités Monastiques de Jérusalem, Jésuites, Rédemptoristes, Communauté de l\'Emmanuel, Focolari.)
+Nous proposons ce service sans soutien financier d\'aucune sorte, autre que les dons éventuels de nos abonnés</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/mrietveld/programming/bottomsheet/bottomsheet-commons/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="divider_gray">#AAe2e2e2</color>
+    <color name="text_gray">#8C000000</color>
+    <!-- From: file:/home/mrietveld/programming/bottomsheet/bottomsheet-commons/src/main/res/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="bottomsheet_image_tile_spacing">4dp</dimen>
+</resources>

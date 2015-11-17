@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\pre-dexed\release\classes-4dfcfbbc894cabd0e38258620f13f614f0e0bd3d.jar" />
+    </item>
+    <item
+        jar="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\exploded-aar\com.timehop.stickyheadersrecyclerview\library\0.4.2\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4967e0e95206c7ce96f6e90a4528bde27c9286c5">
+        <dex dex="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\pre-dexed\release\classes-eaaf57bddf9ba53dcee931d8ab0343a05ec33aae.jar" />
+    </item>
+    <item
+        jar="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\exploded-aar\com.flipboard\bottomsheet-commons\1.4.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ec0be4694636d723270811ed591da4abd54ccd1f">
+        <dex dex="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\pre-dexed\release\classes-8a3b7f487b86d53e3f343eeec718db4ab903cad6.jar" />
+    </item>
+    <item
+        jar="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\pre-dexed\release\classes-28701f44fdd056a7f95d8c7d85578c570a35d7e1.jar" />
+    </item>
+    <item
+        jar="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\pre-dexed\release\classes-734b06b494c00d16cf0c1c97a4628ae07d1d065e.jar" />
+    </item>
+    <item
+        jar="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\palette-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="926692214530f39eaed89159237d26cdc0ae6e48">
+        <dex dex="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\pre-dexed\release\classes-88ef12541bbbadf8edb589f57b6c5c08338f9217.jar" />
+    </item>
+    <item
+        jar="C:\Users\maximevin\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\pre-dexed\release\picasso-2.5.2-dbb26b2251311fd32bde12a55272dc3794084ec7.jar" />
+    </item>
+    <item
+        jar="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\exploded-aar\com.flipboard\bottomsheet-core\1.4.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="eb5db1a2fff40e31592c12069212688b2293fb08">
+        <dex dex="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\pre-dexed\release\classes-f1a373f5e4652cae814b655c14668e28afe04bb9.jar" />
+    </item>
+    <item
+        jar="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\pre-dexed\release\internal_impl-23.0.0-99d38f0a9fa890c97a07668cb9a561832540b518.jar" />
+    </item>
+    <item
+        jar="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\exploded-aar\com.github.bluejamesbond\textjustify-android\2.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9e3ac75a5e3f8ef059c7766dc9640e0487e32749">
+        <dex dex="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\pre-dexed\release\classes-19acf05b807f69e1f96e89e783ca0ae160d3d15c.jar" />
+    </item>
+    <item
+        jar="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\pre-dexed\release\classes-575ca42a0dad0addeac2f0b785699f4c6e711089.jar" />
+    </item>
+    <item
+        jar="C:\Users\maximevin\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.10.2\2eaa8b8ca97c915eab3883bab40e15611e5e0393\parse-android-1.10.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2eaa8b8ca97c915eab3883bab40e15611e5e0393">
+        <dex dex="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\pre-dexed\release\parse-android-1.10.2-37f528f0c64028d23126a7aa1b58dcdb3e09b287.jar" />
+    </item>
+    <item
+        jar="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\pre-dexed\release\classes-e46fb2767c0cf46ed22bcc015506c7b1fc41a123.jar" />
+    </item>
+    <item
+        jar="C:\Users\maximevin\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.1\44780c2cf98f6a3cf4e77f1234d644758b329201\bolts-android-1.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44780c2cf98f6a3cf4e77f1234d644758b329201">
+        <dex dex="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\pre-dexed\release\bolts-android-1.2.1-a496ee50aba2abbe98d2d17602f2cd6d63f76934.jar" />
+    </item>
+    <item
+        jar="C:\Users\maximevin\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\pre-dexed\release\butterknife-7.0.1-ca67f2e29a691947c3e304886d9f42797b1bbab7.jar" />
+    </item>
+    <item
+        jar="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\exploded-aar\com.github.aakira\expandable-layout\1.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1b2e3b65089ca2618085d7c5420acee280e03cb7">
+        <dex dex="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\pre-dexed\release\classes-60f504d63a31455a45afcdbc971a1bc8a67689f8.jar" />
+    </item>
+    <item
+        jar="C:\Users\maximevin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\Users\maximevin\Documents\Android projects\Paroisse St Rieul\ParseStarterProject\build\intermediates\pre-dexed\release\support-annotations-23.0.0-5b515a28274185c64487fb58e38aa4b80fac8e75.jar" />
+    </item>
+
+</items>

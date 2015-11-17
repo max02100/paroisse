@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/text_gray"
+    android:textSize="16sp"
+    android:paddingLeft="16dp"
+    android:paddingStart="16dp"
+    android:paddingRight="16dp"
+    android:paddingEnd="16dp"
+    /><!-- From: file:/home/mrietveld/programming/bottomsheet/bottomsheet-commons/src/main/res/layout/sheet_list_item_subheader.xml --><!-- From: file:/C:/Users/maximevin/Documents/Android%20projects/Paroisse%20St%20Rieul/ParseStarterProject/build/intermediates/exploded-aar/com.flipboard/bottomsheet-commons/1.4.3/res/layout/sheet_list_item_subheader.xml -->
