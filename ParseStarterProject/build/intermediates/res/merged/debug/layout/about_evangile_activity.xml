@@ -70,4 +70,4 @@
             ext:documentView_insetPaddingRight="12dp"
             ext:documentView_insetPaddingBottom="8dp"
             ext:documentView_textSubPixel="true"/>
-    </android.support.design.widget.CoordinatorLayout><!-- From: file:/C:/Users/maximevin/Documents/Android%20projects/Paroisse%20St%20Rieul/ParseStarterProject/src/main/res/layout/about_evangile_activity.xml -->
+    </android.support.design.widget.CoordinatorLayout><!-- From: file:/C:/Users/Maxime/Documents/Android%20Projects/paroisse/ParseStarterProject/src/main/res/layout/about_evangile_activity.xml -->

@@ -10,30 +10,38 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.text.Html;
-import android.text.SpannableStringBuilder;
-import android.text.Spanned;
-import android.text.style.ImageSpan;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewManager;
+import android.webkit.WebChromeClient;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 
 import com.flipboard.bottomsheet.BottomSheetLayout;
 import com.flipboard.bottomsheet.commons.IntentPickerSheetView;
 import com.krealid.starter.adapters.ActuExpendedAdapter;
-import com.krealid.starter.R;
+import com.krealid.starter.rss.RssItem;
 import com.squareup.picasso.Picasso;
 
 import java.util.Comparator;
 
-import com.krealid.starter.rss.RssItem;
+import butterknife.ButterKnife;
 
 /**
  * Created by Maxime on 24/08/2015.
  */
 public class ActuActivity extends AppCompatActivity {
 
-    protected BottomSheetLayout bottomSheetLayout;
+    private BottomSheetLayout bottomSheetLayout;
+    private RecyclerView recyclerView;
+    private WebView text;
+    private LinearLayout articleContainer;
+    private ActuExpendedAdapter actuAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +50,8 @@ public class ActuActivity extends AppCompatActivity {
         Context context = this;
 
         bottomSheetLayout = (BottomSheetLayout) findViewById(R.id.bottomsheet);
+        text = (WebView) findViewById(R.id.articleContent);
+        articleContainer = (LinearLayout) findViewById(R.id.article_container);
 
         /*Récupération des données de l'article choisi*/
         final RssItem article = ((StarterApplication) this.getApplication()).getSelectedArticle();
@@ -110,13 +120,19 @@ public class ActuActivity extends AppCompatActivity {
         });
 
         /* Affichage du texte de l'article*/
-        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.scrollableview);
+        recyclerView = (RecyclerView) findViewById(R.id.scrollableview);
         recyclerView.setHasFixedSize(true);
         LinearLayoutManager manager = new LinearLayoutManager(this);
         manager.setOrientation(LinearLayoutManager.VERTICAL);
         recyclerView.setLayoutManager(manager);
-
-        recyclerView.setAdapter(new ActuExpendedAdapter(articleText, this));
+        actuAdapter = new ActuExpendedAdapter(articleText, this);
+        recyclerView.setAdapter(actuAdapter);
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        recyclerView.removeAllViews();
+        actuAdapter.stopVideo();
+    }
 }

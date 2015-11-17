@@ -3,4 +3,4 @@
     <item android:id="@+id/share" android:title="share" android:icon="@drawable/ic_email"/>
     <item android:id="@+id/upload" android:title="upload" android:icon="@drawable/ic_android"/>
     <item android:id="@+id/call" android:title="call" android:icon="@drawable/ic_phone"/>
-</menu><!-- From: file:/C:/Users/maximevin/Documents/Android%20projects/Paroisse%20St%20Rieul/ParseStarterProject/src/main/res/menu/bottomsheet.xml -->
+</menu><!-- From: file:/C:/Users/Maxime/Documents/Android%20Projects/paroisse/ParseStarterProject/src/main/res/menu/bottomsheet.xml -->

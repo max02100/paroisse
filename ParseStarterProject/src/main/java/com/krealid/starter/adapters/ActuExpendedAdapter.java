@@ -6,6 +6,7 @@ import android.text.Html;
 import android.text.Spanned;
 import android.text.method.LinkMovementMethod;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -32,6 +33,7 @@ public class ActuExpendedAdapter  extends RecyclerView.Adapter<ActuExpendedAdapt
 
     private String text;
     private Context context;
+    private View view;
 
     public ActuExpendedAdapter(String text, Context context){
         this.text = text;
@@ -40,7 +42,7 @@ public class ActuExpendedAdapter  extends RecyclerView.Adapter<ActuExpendedAdapt
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater
+        view = LayoutInflater
                 .from(parent.getContext())
                 .inflate(R.layout.actu_text, parent,false);
         return new ViewHolder(view);
@@ -55,6 +57,12 @@ public class ActuExpendedAdapter  extends RecyclerView.Adapter<ActuExpendedAdapt
 
             int indexToStartIframe = this.text.indexOf(iframeStart);
             int indexToEndIframe = (this.text.substring(indexToStartIframe)).indexOf(iframeEnd);
+
+            String iframeHeight = "height=\"";
+            int indexToStartHeightIframe= this.text.indexOf(iframeHeight);
+
+            String iframeHeightValue = this.text.substring(indexToStartHeightIframe + iframeHeight.length(),
+                    this.text.indexOf('"', indexToStartHeightIframe + iframeHeight.length()));
 
             iframeLink = this.text.substring(indexToStartIframe + iframeStart.length(),
                     indexToStartIframe + indexToEndIframe);
@@ -74,9 +82,12 @@ public class ActuExpendedAdapter  extends RecyclerView.Adapter<ActuExpendedAdapt
             web1.getSettings().setJavaScriptEnabled(true);
             web1.getSettings().setPluginState(WebSettings.PluginState.ON);
             web1.loadUrl(iframeLink);
-
+            web1.setId(R.id.myWebView);
+            int height = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+                    Integer.parseInt(iframeHeightValue),
+                    this.context.getResources().getDisplayMetrics());
             final RelativeLayout.LayoutParams webViewParams = new RelativeLayout.LayoutParams(
-                    ViewGroup.LayoutParams.MATCH_PARENT, 500);
+                    ViewGroup.LayoutParams.MATCH_PARENT, height);
             layout.addView(web1, webViewParams);
             holder.articleContainer.addView(layout);
         } else {
@@ -88,6 +99,13 @@ public class ActuExpendedAdapter  extends RecyclerView.Adapter<ActuExpendedAdapt
     @Override
     public int getItemCount() {
         return 1;
+    }
+
+    public void stopVideo(){
+        ViewHolder holder = new ViewHolder(view);
+        WebView mWebView = (WebView) holder.articleContainer.findViewById(R.id.myWebView);
+        if(mWebView != null)
+            mWebView.loadUrl("about:blank");
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {

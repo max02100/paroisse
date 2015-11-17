@@ -10,4 +10,4 @@
         android:id="@+id/imageView2"
         android:src="@drawable/boot_screen"
         android:scaleType="fitXY" />
-</RelativeLayout><!-- From: file:/C:/Users/maximevin/Documents/Android%20projects/Paroisse%20St%20Rieul/ParseStarterProject/src/main/res/layout/launch_screen.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/Maxime/Documents/Android%20Projects/paroisse/ParseStarterProject/src/main/res/layout/launch_screen.xml -->
