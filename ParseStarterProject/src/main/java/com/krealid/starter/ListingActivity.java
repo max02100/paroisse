@@ -120,7 +120,6 @@ public class ListingActivity extends Activity{
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            Log.d("descrip", feed.getRssItems().get(1).getDescription());
             ArrayList<RssItem> rssItems = feed != null ? feed.getRssItems() : null;
             feeds = rssItems;
             return null;

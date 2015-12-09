@@ -2,25 +2,21 @@ package com.krealid.starter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
+import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
-import android.util.TypedValue;
+import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.ViewManager;
-import android.webkit.WebChromeClient;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.flipboard.bottomsheet.BottomSheetLayout;
 import com.flipboard.bottomsheet.commons.IntentPickerSheetView;
@@ -30,39 +26,44 @@ import com.squareup.picasso.Picasso;
 
 import java.util.Comparator;
 
+import butterknife.Bind;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 /**
  * Created by Maxime on 24/08/2015.
  */
 public class ActuActivity extends AppCompatActivity {
 
-    private BottomSheetLayout bottomSheetLayout;
-    private RecyclerView recyclerView;
-    private WebView text;
-    private LinearLayout articleContainer;
-    private ActuExpendedAdapter actuAdapter;
+    @Bind(R.id.bottomsheet)
+    BottomSheetLayout bottomSheetLayout;
+    @Bind(R.id.article_title)
+    TextView articleTitle;
+    @Bind(R.id.scrollableview)
+    RecyclerView recyclerView;
+    @Bind(R.id.coordinator)
+    CoordinatorLayout coordinatorLayout;
+    @Bind(R.id.appbar)
+    AppBarLayout appBarLayout;
+    @Bind(R.id.anim_toolbar)
+    Toolbar toolbar;
+
+    private RssItem article;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity);
-        Context context = this;
-
-        bottomSheetLayout = (BottomSheetLayout) findViewById(R.id.bottomsheet);
-        text = (WebView) findViewById(R.id.articleContent);
-        articleContainer = (LinearLayout) findViewById(R.id.article_container);
+        ButterKnife.bind(this);
 
         /*Récupération des données de l'article choisi*/
-        final RssItem article = ((StarterApplication) this.getApplication()).getSelectedArticle();
-
-        Log.d("actu", article.getDescription());
+       article = ((StarterApplication) this.getApplication()).getSelectedArticle();
 
         /*Gestion de la toolbar*/
-        final Toolbar toolbar = (Toolbar) findViewById(R.id.anim_toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
         toolbar.setNavigationIcon(getResources().getDrawable(R.drawable.ic_arrow_back));
-        /*Retour à l'activité de lisiting des articles*/
+        /*Retour à l'activité de listing des articles*/
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -72,10 +73,7 @@ public class ActuActivity extends AppCompatActivity {
                 ActuActivity.this.finish();
             }
         });
-        final CollapsingToolbarLayout collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        collapsingToolbar.setTitle(article.getTitle());
-        collapsingToolbar.setCollapsedTitleTextColor(Color.parseColor("#FFFFFF"));
-        collapsingToolbar.setExpandedTitleColor(Color.parseColor("#FFFFFF"));
+        articleTitle.setText(article.getTitle());
 
         /* Gestion de l'image pour le header*/
         ImageView header = (ImageView) findViewById(R.id.header);
@@ -89,50 +87,57 @@ public class ActuActivity extends AppCompatActivity {
         String articleText = article.getDescription().substring(indexToStartImg+indexToEndBaliseImg);
         String imgLink = article.getDescription().substring(indexToStartImg+imgStart.length(),
                 indexToStartImg+indexToEndImg);
-        Picasso.with(context).load(imgLink).into(header);
-
-        /* Gestion du FAB */
-        FloatingActionButton fabShare = (FloatingActionButton) findViewById(R.id.floating_action_button);
-        /* Partage de l'article */
-        fabShare.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                final Intent shareIntent = new Intent(Intent.ACTION_SEND);
-                shareIntent.putExtra(Intent.EXTRA_TEXT, article.getTitle() + " : " + article.getLink());
-                shareIntent.setType("text/plain");
-                IntentPickerSheetView intentPickerSheet = new IntentPickerSheetView(ActuActivity.this, shareIntent, "Partager", new IntentPickerSheetView.OnIntentPickedListener() {
-                    @Override
-                    public void onIntentPicked(IntentPickerSheetView.ActivityInfo activityInfo) {
-                        bottomSheetLayout.dismissSheet();
-                        startActivity(activityInfo.getConcreteIntent(shareIntent));
-                    }
-                });
-
-                // Sort activities in reverse order for no good reason
-                intentPickerSheet.setSortMethod(new Comparator<IntentPickerSheetView.ActivityInfo>() {
-                    @Override
-                    public int compare(IntentPickerSheetView.ActivityInfo lhs, IntentPickerSheetView.ActivityInfo rhs) {
-                        return rhs.label.compareTo(lhs.label);
-                    }
-                });
-                bottomSheetLayout.showWithSheetView(intentPickerSheet);
-            }
-        });
+        Picasso.with(this).load(imgLink).into(header);
 
         /* Affichage du texte de l'article*/
-        recyclerView = (RecyclerView) findViewById(R.id.scrollableview);
         recyclerView.setHasFixedSize(true);
         LinearLayoutManager manager = new LinearLayoutManager(this);
         manager.setOrientation(LinearLayoutManager.VERTICAL);
         recyclerView.setLayoutManager(manager);
-        actuAdapter = new ActuExpendedAdapter(articleText, this);
-        recyclerView.setAdapter(actuAdapter);
+        recyclerView.setAdapter(new ActuExpendedAdapter(articleText, this));
+
+        final AppBarLayout.Behavior appBarBehavior = (AppBarLayout.Behavior) ((CoordinatorLayout.LayoutParams) appBarLayout.getLayoutParams()).getBehavior();
+
+        appBarBehavior.onStopNestedScroll(coordinatorLayout, appBarLayout, recyclerView);
+        for (int i = 0; i < appBarLayout.getChildCount(); i++) {
+            View childView = appBarLayout.getChildAt(i);
+            if (!childView.isClickable()) {
+                childView.setOnTouchListener(new View.OnTouchListener() {
+                    @Override
+                    public boolean onTouch(View view, MotionEvent motionEvent) {
+                        return true;
+                    }
+                });
+            }
+        }
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
         recyclerView.removeAllViews();
-        actuAdapter.stopVideo();
+        ((ActuExpendedAdapter) recyclerView.getAdapter()).stopVideo();
+    }
+
+    @OnClick(R.id.floating_action_button)
+    void share(){
+        final Intent shareIntent = new Intent(Intent.ACTION_SEND);
+        shareIntent.putExtra(Intent.EXTRA_TEXT, article.getTitle() + " : " + article.getLink());
+        shareIntent.setType("text/plain");
+        IntentPickerSheetView intentPickerSheet = new IntentPickerSheetView(ActuActivity.this, shareIntent, "Partager", new IntentPickerSheetView.OnIntentPickedListener() {
+            @Override
+            public void onIntentPicked(IntentPickerSheetView.ActivityInfo activityInfo) {
+                bottomSheetLayout.dismissSheet();
+                startActivity(activityInfo.getConcreteIntent(shareIntent));
+            }
+        });
+
+        intentPickerSheet.setSortMethod(new Comparator<IntentPickerSheetView.ActivityInfo>() {
+            @Override
+            public int compare(IntentPickerSheetView.ActivityInfo lhs, IntentPickerSheetView.ActivityInfo rhs) {
+                return rhs.label.compareTo(lhs.label);
+            }
+        });
+        bottomSheetLayout.showWithSheetView(intentPickerSheet);
     }
 }

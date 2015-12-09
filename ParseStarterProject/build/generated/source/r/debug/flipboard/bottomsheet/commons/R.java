@@ -23,11 +23,11 @@ public final class R {
 		public static final int bottomsheet_collections = 0x7f02004b;
 	}
 	public static final class id {
-		public static final int grid = 0x7f0d00a4;
+		public static final int grid = 0x7f0d00a6;
 		public static final int icon = 0x7f0d005b;
-		public static final int label = 0x7f0d00bc;
-		public static final int list = 0x7f0d00aa;
-		public static final int thumb = 0x7f0d00bd;
+		public static final int label = 0x7f0d00be;
+		public static final int list = 0x7f0d00ac;
+		public static final int thumb = 0x7f0d00bf;
 		public static final int title = 0x7f0d005c;
 	}
 	public static final class layout {
