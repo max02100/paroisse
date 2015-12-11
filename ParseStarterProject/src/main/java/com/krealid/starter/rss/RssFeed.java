@@ -21,7 +21,6 @@ import java.util.ArrayList;
 import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.util.Log;
 
 public class RssFeed implements Parcelable {
 
@@ -33,7 +32,7 @@ public class RssFeed implements Parcelable {
 	private ArrayList<RssItem> rssItems;
 	
 	public RssFeed() {
-		rssItems = new ArrayList<RssItem>();
+		rssItems = new ArrayList<>();
 	}
 	
 	public RssFeed(Parcel source) {

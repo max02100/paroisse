@@ -1,21 +1,17 @@
 package com.krealid.starter;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.FloatingActionButton;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.MotionEvent;
 import android.view.View;
-import android.webkit.WebView;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.flipboard.bottomsheet.BottomSheetLayout;
@@ -46,7 +42,7 @@ public class ActuActivity extends AppCompatActivity {
     @Bind(R.id.appbar)
     AppBarLayout appBarLayout;
     @Bind(R.id.anim_toolbar)
-    Toolbar toolbar;
+    Toolbar mToolbar;
 
     private RssItem article;
 
@@ -57,20 +53,17 @@ public class ActuActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         /*Récupération des données de l'article choisi*/
-       article = ((StarterApplication) this.getApplication()).getSelectedArticle();
+        article = ((StarterApplication) this.getApplication()).getSelectedArticle();
 
         /*Gestion de la toolbar*/
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
-        toolbar.setNavigationIcon(getResources().getDrawable(R.drawable.ic_arrow_back));
-        /*Retour à l'activité de listing des articles*/
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+        setSupportActionBar(mToolbar);
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayShowTitleEnabled(false);
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent mainIntent = new Intent(ActuActivity.this, ListingActivity.class);
-                mainIntent.putExtra("choix", 1);
-                ActuActivity.this.startActivity(mainIntent);
-                ActuActivity.this.finish();
+                onBackPressed();
             }
         });
         articleTitle.setText(article.getTitle());
@@ -78,22 +71,20 @@ public class ActuActivity extends AppCompatActivity {
         /* Gestion de l'image pour le header*/
         ImageView header = (ImageView) findViewById(R.id.header);
         String imgStart = "<img src=\"";
-        String imgEnd   = "\" alt";
+        String imgEnd = "\" alt";
         String imgBaliseEnd = "/>";
         int indexToStartImg = article.getDescription().indexOf(imgStart);
         int indexToEndImg = (article.getDescription().substring(indexToStartImg)).indexOf(imgEnd);
-        int indexToEndBaliseImg = (article.getDescription().substring(indexToStartImg)).indexOf(imgBaliseEnd)+2;
+        int indexToEndBaliseImg = (article.getDescription().substring(indexToStartImg)).indexOf(imgBaliseEnd) + 2;
 
-        String articleText = article.getDescription().substring(indexToStartImg+indexToEndBaliseImg);
-        String imgLink = article.getDescription().substring(indexToStartImg+imgStart.length(),
-                indexToStartImg+indexToEndImg);
+        String articleText = article.getDescription().substring(indexToStartImg + indexToEndBaliseImg);
+        String imgLink = article.getDescription().substring(indexToStartImg + imgStart.length(),
+                indexToStartImg + indexToEndImg);
         Picasso.with(this).load(imgLink).into(header);
 
         /* Affichage du texte de l'article*/
         recyclerView.setHasFixedSize(true);
-        LinearLayoutManager manager = new LinearLayoutManager(this);
-        manager.setOrientation(LinearLayoutManager.VERTICAL);
-        recyclerView.setLayoutManager(manager);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(new ActuExpendedAdapter(articleText, this));
 
         final AppBarLayout.Behavior appBarBehavior = (AppBarLayout.Behavior) ((CoordinatorLayout.LayoutParams) appBarLayout.getLayoutParams()).getBehavior();
@@ -120,7 +111,7 @@ public class ActuActivity extends AppCompatActivity {
     }
 
     @OnClick(R.id.floating_action_button)
-    void share(){
+    void share() {
         final Intent shareIntent = new Intent(Intent.ACTION_SEND);
         shareIntent.putExtra(Intent.EXTRA_TEXT, article.getTitle() + " : " + article.getLink());
         shareIntent.setType("text/plain");

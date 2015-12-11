@@ -1,34 +1,40 @@
 package com.krealid.starter;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-import butterknife.ButterKnife;
-
-import com.github.aakira.expandablelayout.Utils;
-import com.krealid.starter.R;
 import com.krealid.starter.adapters.HeaderHorairesAdapter;
+
+import butterknife.Bind;
+import butterknife.ButterKnife;
 
 /**
  * Created by Maxime on 08/09/2015.
  */
-public class HorairesActivity extends Activity {
+public class HorairesActivity extends AppCompatActivity {
 
-    private RecyclerView recyclerView;
+    @Bind(R.id.toolbar)
+    Toolbar mToolbar;
+    @Bind(R.id.simpleList)
+    RecyclerView recyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.standard_app_bar_fragment);
+        ButterKnife.bind(this);
 
-        Toolbar mToolbar = ButterKnife.findById(this, R.id.toolbar);
-        mToolbar.setNavigationIcon(getResources().getDrawable(R.drawable.ic_arrow_back));
+        setSupportActionBar(mToolbar);
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
         mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -36,13 +42,9 @@ public class HorairesActivity extends Activity {
             }
         });
         mToolbar.setTitle(R.string.app_name);
-        mToolbar.setTitleTextColor(Color.parseColor("#FFFFFF"));
 
-        recyclerView = ButterKnife.findById(this, R.id.simpleList);
         recyclerView.setHasFixedSize(true);
-        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(this, 1);
-
-        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(new HeaderHorairesAdapter(this));
     }
 

@@ -34,11 +34,9 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:text="Article title"
-                android:ellipsize="none"
                 android:textStyle="bold"
-                android:lines="1"
-                android:singleLine="false"
+                android:maxLines="1"
+                android:ellipsize="end"
                 android:id="@+id/titleActu"
                 android:layout_marginBottom="12dp"
                 android:clickable="true"/>

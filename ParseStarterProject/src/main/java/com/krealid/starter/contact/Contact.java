@@ -62,7 +62,7 @@ public class Contact {
         String[] contactsJobs = this.context.getResources().getStringArray(R.array.contact_job);
         String[] contactsEmails = this.context.getResources().getStringArray(R.array.contact_email);
 
-        ArrayList<Contact> contactsList = new ArrayList<Contact>();
+        ArrayList<Contact> contactsList = new ArrayList<>();
         for (int i = 0; i < contactsEmails.length; i++) {
             Contact c = new Contact(contactsNames[i], contactsForWhat[i], contactsJobs[i], contactsEmails[i]);
             contactsList.add(c);

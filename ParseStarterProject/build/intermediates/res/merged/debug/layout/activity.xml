@@ -42,7 +42,7 @@
             <android.support.v7.widget.Toolbar
                 android:id="@+id/anim_toolbar"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="220dp"
                 app:layout_collapseMode="pin"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
@@ -52,13 +52,14 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
                 android:background="?attr/colorPrimaryDark"
-                android:paddingLeft="72dp"
+                android:paddingLeft="25dp"
                 android:paddingRight="0dp"
+                android:maxLines="1"
+                android:ellipsize="end"
                 android:paddingBottom="24dp"
                 android:paddingTop="24dp"
                 android:textColor="@android:color/white"
-                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-                />
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 

@@ -18,7 +18,7 @@ import com.krealid.starter.rss.RssItem;
 
 public class EvangilesAdapter extends RecyclerView.Adapter<EvangilesAdapter.ViewHolder> {
 
-    private ArrayList<RssItem> mData = new ArrayList<RssItem>();
+    private ArrayList<RssItem> mData = new ArrayList<>();
     public Context context;
 
     public EvangilesAdapter(ArrayList data, Context context){

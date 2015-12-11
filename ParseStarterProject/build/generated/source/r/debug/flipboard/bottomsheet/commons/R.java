@@ -19,8 +19,8 @@ public final class R {
 		public static final int bottomsheet_image_tile_spacing = 0x7f080052;
 	}
 	public static final class drawable {
-		public static final int bottomsheet_camera = 0x7f02004a;
-		public static final int bottomsheet_collections = 0x7f02004b;
+		public static final int bottomsheet_camera = 0x7f020048;
+		public static final int bottomsheet_collections = 0x7f020049;
 	}
 	public static final class id {
 		public static final int grid = 0x7f0d00a6;

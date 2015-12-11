@@ -18,8 +18,8 @@ public class ActuActivity$$ViewBinder<T extends com.krealid.starter.ActuActivity
     target.coordinatorLayout = finder.castView(view, 2131558537, "field 'coordinatorLayout'");
     view = finder.findRequiredView(source, 2131558534, "field 'appBarLayout'");
     target.appBarLayout = finder.castView(view, 2131558534, "field 'appBarLayout'");
-    view = finder.findRequiredView(source, 2131558531, "field 'toolbar'");
-    target.toolbar = finder.castView(view, 2131558531, "field 'toolbar'");
+    view = finder.findRequiredView(source, 2131558531, "field 'mToolbar'");
+    target.mToolbar = finder.castView(view, 2131558531, "field 'mToolbar'");
     view = finder.findRequiredView(source, 2131558533, "method 'share'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
@@ -37,6 +37,6 @@ public class ActuActivity$$ViewBinder<T extends com.krealid.starter.ActuActivity
     target.recyclerView = null;
     target.coordinatorLayout = null;
     target.appBarLayout = null;
-    target.toolbar = null;
+    target.mToolbar = null;
   }
 }

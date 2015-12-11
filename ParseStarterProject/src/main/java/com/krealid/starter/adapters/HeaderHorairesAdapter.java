@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import butterknife.Bind;
 import butterknife.ButterKnife;
 
 import com.github.aakira.expandablelayout.ExpandableLayout;
@@ -107,16 +108,18 @@ public class HeaderHorairesAdapter extends RecyclerView.Adapter<HeaderHorairesAd
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        public TextView title, listHoraires;
-        public ExpandableRelativeLayout expandableLayout;
-        public RelativeLayout buttonLayout;
+        @Bind(R.id.headerHoraires)
+        TextView title;
+        @Bind(R.id.horairesList)
+        TextView listHoraires;
+        @Bind(R.id.expandableLayout)
+        ExpandableRelativeLayout expandableLayout;
+        @Bind(R.id.button)
+        RelativeLayout buttonLayout;
 
         public ViewHolder(View itemView) {
             super(itemView);
-            buttonLayout     = ButterKnife.findById(itemView, R.id.button);
-            title            = ButterKnife.findById(itemView, R.id.headerHoraires);
-            listHoraires     = ButterKnife.findById(itemView, R.id.horairesList);
-            expandableLayout = ButterKnife.findById(itemView, R.id.expandableLayout);
+            ButterKnife.bind(this, itemView);
         }
     }
 

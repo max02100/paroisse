@@ -22,7 +22,7 @@
             android:id="@+id/evangileButton"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/evangile"
-            android:scaleType="fitXY"
+            android:scaleType="centerCrop"
             android:background="@android:color/transparent"
             android:layout_weight="1"/>
     </android.support.v7.widget.CardView>
@@ -42,8 +42,7 @@
             android:layout_gravity="center_horizontal"
             android:src="@drawable/news"
             android:background="@android:color/transparent"
-            android:layout_weight="1"
-            android:scaleType="fitXY"/>
+            android:scaleType="centerCrop"/>
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
@@ -62,7 +61,7 @@
             android:src="@drawable/horaires"
             android:background="@android:color/transparent"
             android:layout_weight="1"
-            android:scaleType="fitXY"/>
+            android:scaleType="centerCrop"/>
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
@@ -81,7 +80,7 @@
             android:src="@drawable/mouvements"
             android:background="@android:color/transparent"
             android:layout_weight="1"
-            android:scaleType="fitXY"/>
+            android:scaleType="centerCrop"/>
     </android.support.v7.widget.CardView>
 
     <LinearLayout

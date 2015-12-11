@@ -1,66 +1,67 @@
 package com.krealid.starter;
 
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.View;
-
-import org.xml.sax.SAXException;
-
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.ArrayList;
-
-import butterknife.ButterKnife;
 
 import com.krealid.starter.adapters.ContactAdapter;
 import com.krealid.starter.adapters.EvangilesAdapter;
 import com.krealid.starter.adapters.NewsAdapter;
+import com.krealid.starter.rss.RssFeed;
 import com.krealid.starter.rss.RssItem;
 import com.krealid.starter.rss.RssReader;
-import com.krealid.starter.R;
-import com.krealid.starter.rss.RssFeed;
+
+import org.xml.sax.SAXException;
+
+import java.io.IOException;
+import java.net.URL;
+import java.util.ArrayList;
+
+import butterknife.Bind;
+import butterknife.ButterKnife;
 
 /**
  * Created by Maxime on 23/07/2015.
  */
-public class ListingActivity extends Activity{
+public class ListingActivity extends AppCompatActivity {
 
-    private RecyclerView recyclerView;
+    @Bind(R.id.toolbar)
+    Toolbar mToolbar;
+    @Bind(R.id.simpleList)
+    RecyclerView recyclerView;
+
     private ArrayList<RssItem> feeds = new ArrayList<>();
-    private int choix;
     public static int mCurCheckPosition;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.standard_app_bar_fragment);
+        ButterKnife.bind(this);
 
-        choix = getIntent().getIntExtra("choix", 0);
+        int choix = getIntent().getIntExtra("choix", 0);
 
-        Toolbar mToolbar = ButterKnife.findById(this, R.id.toolbar);
-        mToolbar.setNavigationIcon(getResources().getDrawable(R.drawable.ic_arrow_back));
+        setSupportActionBar(mToolbar);
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
         mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();
             }
         });
-        mToolbar.setTitle(R.string.app_name);
-        mToolbar.setTitleTextColor(Color.parseColor("#FFFFFF"));
 
-        recyclerView = ButterKnife.findById(this, R.id.simpleList);
         recyclerView.setHasFixedSize(true);
-        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(this, 1);
-        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         switch (choix){
             case 0:
@@ -74,8 +75,7 @@ public class ListingActivity extends Activity{
                         .execute();
                 break;
             case 3:
-                ContactAdapter contactAdapter = new ContactAdapter(this);
-                recyclerView.setAdapter(contactAdapter);
+                recyclerView.setAdapter(new ContactAdapter(this));
                 break;
         }
     }
@@ -113,15 +113,10 @@ public class ListingActivity extends Activity{
             try {
                 URL url = new URL(this.link);
                 feed = RssReader.read(url);
-            } catch (MalformedURLException e) {
-                e.printStackTrace();
-            } catch (SAXException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
+            } catch (SAXException | IOException e) {
                 e.printStackTrace();
             }
-            ArrayList<RssItem> rssItems = feed != null ? feed.getRssItems() : null;
-            feeds = rssItems;
+            feeds = feed != null ? feed.getRssItems() : null;
             return null;
         }
 
@@ -133,19 +128,17 @@ public class ListingActivity extends Activity{
             switch (choice){
                 case 0:
                     for (int i = 0; i < feeds.size(); i++) {
-                        if( feeds.get(i).getTitle().toLowerCase().contains("vangile de ".toLowerCase() ) == true){
+                        if(feeds.get(i).getTitle().toLowerCase().contains("vangile de ".toLowerCase())){
                             RssItem item = feeds.get(i);
                             feeds.clear();
                             feeds.add(item);
                             break;
                         }
                     }
-                    EvangilesAdapter evangilesAdapter = new EvangilesAdapter(feeds, ListingActivity.this);
-                    recyclerView.setAdapter(evangilesAdapter);
+                    recyclerView.setAdapter(new EvangilesAdapter(feeds, ListingActivity.this));
                     break;
                 case 1:
-                    NewsAdapter newsAdapter = new NewsAdapter(feeds, ListingActivity.this);
-                    recyclerView.setAdapter(newsAdapter);
+                    recyclerView.setAdapter(new NewsAdapter(feeds, ListingActivity.this));
                     break;
             }
         }

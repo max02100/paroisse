@@ -65,13 +65,12 @@ public class RssHandler extends DefaultHandler {
 				    Method method = rssFeed.getClass().getMethod(methodName, String.class);
 				    method.invoke(rssFeed, stringBuilder.toString());
 				}
-			} catch (SecurityException e) {
-			} catch (NoSuchMethodException e) {
-			} catch (IllegalArgumentException e) {
-			} catch (IllegalAccessException e) {
-			} catch (InvocationTargetException e) {
-			}
-			
+			} catch (SecurityException |
+					NoSuchMethodException |
+					IllegalArgumentException |
+					IllegalAccessException |
+					InvocationTargetException e) {}
+
 		} else if (rssItem != null) {
 			// Parse item properties
 			

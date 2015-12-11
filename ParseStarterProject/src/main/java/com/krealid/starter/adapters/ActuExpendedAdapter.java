@@ -2,13 +2,8 @@ package com.krealid.starter.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
-import android.text.Html;
-import android.text.Spanned;
-import android.text.method.LinkMovementMethod;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebChromeClient;
@@ -16,15 +11,10 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 
-import butterknife.ButterKnife;
-
-import com.bluejamesbond.text.DocumentView;
-import com.bluejamesbond.text.SpannableDocumentLayout;
 import com.krealid.starter.R;
 
-import org.w3c.dom.Text;
+import butterknife.ButterKnife;
 
 /**
  * Created by Maxime on 26/08/2015.
@@ -50,7 +40,7 @@ public class ActuExpendedAdapter  extends RecyclerView.Adapter<ActuExpendedAdapt
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        String iframeLink = "";
+        String iframeLink;
         if(this.text.contains("<iframe")){
             String iframeStart = "<iframe src=\"";
             String iframeEnd   = "\" width=";
