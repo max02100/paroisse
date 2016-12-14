@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.flipboard/bottomsheet-core/1.4.3/res/values-sw720dp/values-sw720dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 187,
+                        "endColumn": 50,
+                        "endOffset": 233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 106,
+                    "endColumn": 63,
+                    "endOffset": 165
+                },
+                "from": {
+                    "file": "/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.flipboard/bottomsheet-core/1.4.3/res/values-sw720dp/values-sw720dp.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 372,
+                        "endColumn": 63,
+                        "endOffset": 431
+                    }
+                }
+            }
+        ]
+    }
+]

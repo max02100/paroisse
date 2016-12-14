@@ -22,7 +22,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.Comparator;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -31,17 +31,17 @@ import butterknife.OnClick;
  */
 public class ActuActivity extends AppCompatActivity {
 
-    @Bind(R.id.bottomsheet)
+    @BindView(R.id.bottomsheet)
     BottomSheetLayout bottomSheetLayout;
-    @Bind(R.id.article_title)
+    @BindView(R.id.article_title)
     TextView articleTitle;
-    @Bind(R.id.scrollableview)
+    @BindView(R.id.scrollableview)
     RecyclerView recyclerView;
-    @Bind(R.id.coordinator)
+    @BindView(R.id.coordinator)
     CoordinatorLayout coordinatorLayout;
-    @Bind(R.id.appbar)
+    @BindView(R.id.appbar)
     AppBarLayout appBarLayout;
-    @Bind(R.id.anim_toolbar)
+    @BindView(R.id.anim_toolbar)
     Toolbar mToolbar;
 
     private RssItem article;

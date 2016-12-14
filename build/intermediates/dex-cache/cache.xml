@@ -2,123 +2,589 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.2"
-        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
-        <dex dex="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\pre-dexed\release\internal_impl-23.1.0-60b38d50a607537222d7f9fed4cd3bdf72a99e17.jar" />
+        optimize="true"
+        revision="23.0.1"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_ff54cdf8d08168e49a21bb08ed41da14bcaecf71.jar" />
     </item>
     <item
-        jar="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.flipboard/bottomsheet-core/1.4.3/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.2"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\pre-dexed\release\classes-3a24378136f223659138a2d7984bf18535d184a2.jar" />
+        optimize="true"
+        revision="23.0.1"
+        sha1="eb5db1a2fff40e31592c12069212688b2293fb08">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.flipboard-bottomsheet-core-1.4.3_ab1bba2ee405dc35755aab2d86cf78835c7d93c8.jar" />
     </item>
     <item
-        jar="C:\Users\maximevin\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.github.bluejamesbond/textjustify-android/2.1.0/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9e3ac75a5e3f8ef059c7766dc9640e0487e32749">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.github.bluejamesbond-textjustify-android-2.1.0_7161234251f4dfb7902a80ed65a801f27399ceac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_106a20246f17f34d7fdf2a720404363a6605f593.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.8.0_17e9342cb9703fa2561115c0b6f0d4054d1a4049.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
         revision="23.0.2"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\pre-dexed\release\picasso-2.5.2-dbb26b2251311fd32bde12a55272dc3794084ec7.jar" />
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/release/picasso-2.5.2_1c0756c414e06d476f5558a5267403e830282ae8.jar" />
     </item>
     <item
-        jar="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\exploded-aar\com.flipboard\bottomsheet-core\1.4.3\jars\classes.jar"
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.github.aakira/expandable-layout/1.4.0/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.2"
-        sha1="eb5db1a2fff40e31592c12069212688b2293fb08">
-        <dex dex="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\pre-dexed\release\classes-4a0395e4fd40a81fff32912a11a18c1e039b4a1f.jar" />
-    </item>
-    <item
-        jar="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\pre-dexed\release\classes-3727e02b7969bdd49cadc33f66b39871619f1dcc.jar" />
-    </item>
-    <item
-        jar="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\exploded-aar\com.github.aakira\expandable-layout\1.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
+        optimize="true"
+        revision="23.0.1"
         sha1="1b2e3b65089ca2618085d7c5420acee280e03cb7">
-        <dex dex="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\pre-dexed\release\classes-3e150ee389843c5d9aa622674729f729396c8675.jar" />
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.github.aakira-expandable-layout-1.4.0_1f2b44f393c976d9ca96bfa5a3e9fa0e453928ff.jar" />
     </item>
     <item
-        jar="C:\Users\maximevin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.flipboard/bottomsheet-commons/1.4.3/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.2"
-        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
-        <dex dex="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\pre-dexed\release\support-annotations-23.1.0-36fefaea0dc8a1448e6b198980f93b38aeae57b8.jar" />
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec0be4694636d723270811ed591da4abd54ccd1f">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.flipboard-bottomsheet-commons-1.4.3_156b8496e823f6e3babf8ccb7458a238e987484f.jar" />
     </item>
     <item
-        jar="C:\Users\maximevin\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.10.2\2eaa8b8ca97c915eab3883bab40e15611e5e0393\parse-android-1.10.2.jar"
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.timehop.stickyheadersrecyclerview/library/0.4.2/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.2"
-        sha1="2eaa8b8ca97c915eab3883bab40e15611e5e0393">
-        <dex dex="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\pre-dexed\release\parse-android-1.10.2-37f528f0c64028d23126a7aa1b58dcdb3e09b287.jar" />
-    </item>
-    <item
-        jar="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\exploded-aar\com.timehop.stickyheadersrecyclerview\library\0.4.2\jars\classes.jar"
-        jumboMode="false"
+        optimize="true"
         revision="23.0.2"
         sha1="4967e0e95206c7ce96f6e90a4528bde27c9286c5">
-        <dex dex="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\pre-dexed\release\classes-55900d39304e8fa40b5556fb60c8c3d0908cb670.jar" />
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/release/com.timehop.stickyheadersrecyclerview-library-0.4.2_a3c6d7aeedee3bb750d9cdd7d5c6ee97c3977fd2.jar" />
     </item>
     <item
-        jar="C:\Users\maximevin\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.1\44780c2cf98f6a3cf4e77f1234d644758b329201\bolts-android-1.2.1.jar"
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.8.0/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.8.0_07da7eb22e9b10eefc74d75c088dcfbb9accc8e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
         revision="23.0.2"
-        sha1="44780c2cf98f6a3cf4e77f1234d644758b329201">
-        <dex dex="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\pre-dexed\release\bolts-android-1.2.1-a496ee50aba2abbe98d2d17602f2cd6d63f76934.jar" />
+        sha1="363f626ad5686283250cdb6073ae1bba5cb07a87">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/release/com.google.firebase-firebase-common-9.2.0_974f076d2c880db797224d34e7548eebc30dbf45.jar" />
     </item>
     <item
-        jar="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\palette-v7\23.1.0\jars\classes.jar"
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_6db59f5f834db307830c6245734926622b2e0ba9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_e448f5a3fef72f3ac727eedda01241619a5cd2e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_a14fa4b2a7c5d5406ef054e6bec6a9b2f74afda1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.8.0_d5ad68965a57cf82e3069255fe81561f3f5d897a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_f8101bbd4bf7debf8e1dd9a14a505002db5246be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
         revision="23.0.2"
-        sha1="167a5721524b1d2810d1b41ed76eff1d53a0e82b">
-        <dex dex="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\pre-dexed\release\classes-4b699e9aff699a32f100e2865caba22ab414c2ac.jar" />
+        sha1="4838df6db988160b107e954e02a745370df543b6">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-9.2.0_bcec36d1aba5d530e80028a767bbee869ec16532.jar" />
     </item>
     <item
-        jar="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\jars\classes.jar"
+        is-multidex="false"
+        jar="/Users/Maxime/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
         jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_5812ac55ad0759a8f0ddde4373469dba9bf62a97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/picasso-2.5.2_1c0756c414e06d476f5558a5267403e830282ae8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.android.support-transition-25.0.1_3aad4252f4c67291d539c4233c6abb8ae00f54b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
         revision="23.0.2"
-        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
-        <dex dex="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\pre-dexed\release\classes-67b3ad4a57f53ea0209a06d44651db2c16b841b1.jar" />
+        sha1="dc4c18602ecffb3e69cda6cdc51ba4feac0f97d7">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/release/com.google.firebase-firebase-iid-9.2.0_50297b67629928c82bd6f8b185fce9cf39ecb625.jar" />
     </item>
     <item
-        jar="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\exploded-aar\com.flipboard\bottomsheet-commons\1.4.3\jars\classes.jar"
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.github.aakira/expandable-layout/1.4.0/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1b2e3b65089ca2618085d7c5420acee280e03cb7">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/release/com.github.aakira-expandable-layout-1.4.0_1f2b44f393c976d9ca96bfa5a3e9fa0e453928ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/palette-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="783127c8b1d23b84cccc3dc776ca4637d4aba900">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-25.0.1_6cb00554fa96e158306db540700ec442bfc130cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.timehop.stickyheadersrecyclerview/library/0.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4967e0e95206c7ce96f6e90a4528bde27c9286c5">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.timehop.stickyheadersrecyclerview-library-0.4.2_a3c6d7aeedee3bb750d9cdd7d5c6ee97c3977fd2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.flipboard/bottomsheet-commons/1.4.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
         revision="23.0.2"
         sha1="ec0be4694636d723270811ed591da4abd54ccd1f">
-        <dex dex="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\pre-dexed\release\classes-4cff009d5f1f88dbade9ff0d62b66b880cb64288.jar" />
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/release/com.flipboard-bottomsheet-commons-1.4.3_156b8496e823f6e3babf8ccb7458a238e987484f.jar" />
     </item>
     <item
-        jar="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_0f8b84bcef181173505138d1c2a1ff871df9c2d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.1_71e69ff90c4158d18a2dea684d3fd6f036b1db22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_e448f5a3fef72f3ac727eedda01241619a5cd2e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_ef41acdb87d3acd67c1885185e97ab7fccd8a5e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.8.0_a7ff2228b2b97780382cfa3619339c153f357909.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.android.support-design-25.0.1_db8651d14841393f8a78b3cf631c8d8815cf901e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_3a5e90618841d008110cf5cba7cae41e18bf3f87.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/picasso-2.5.2_1c0756c414e06d476f5558a5267403e830282ae8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
         revision="23.0.2"
-        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
-        <dex dex="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\pre-dexed\release\classes-4d14b6fa0dd22ffc3f0cb6416abde2a248b8730d.jar" />
+        sha1="dd7676ac12aa6653718b7ea33d93ce9d6915d526">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-9.2.0_e4a64c1d75d630e5ce368f53fe71b60feff980af.jar" />
     </item>
     <item
-        jar="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\exploded-aar\com.github.bluejamesbond\textjustify-android\2.1.0\jars\classes.jar"
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.flipboard/bottomsheet-commons/1.4.3/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ec0be4694636d723270811ed591da4abd54ccd1f">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.flipboard-bottomsheet-commons-1.4.3_156b8496e823f6e3babf8ccb7458a238e987484f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.timehop.stickyheadersrecyclerview/library/0.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4967e0e95206c7ce96f6e90a4528bde27c9286c5">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.timehop.stickyheadersrecyclerview-library-0.4.2_a3c6d7aeedee3bb750d9cdd7d5c6ee97c3977fd2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.github.aakira/expandable-layout/1.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1b2e3b65089ca2618085d7c5420acee280e03cb7">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.github.aakira-expandable-layout-1.4.0_1f2b44f393c976d9ca96bfa5a3e9fa0e453928ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.8.0_e54c3247489b65a7d5848372b14f52312c102b29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.flipboard/bottomsheet-core/1.4.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="eb5db1a2fff40e31592c12069212688b2293fb08">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.flipboard-bottomsheet-core-1.4.3_ab1bba2ee405dc35755aab2d86cf78835c7d93c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.github.bluejamesbond/textjustify-android/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9e3ac75a5e3f8ef059c7766dc9640e0487e32749">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.github.bluejamesbond-textjustify-android-2.1.0_7161234251f4dfb7902a80ed65a801f27399ceac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_878984fe27acb636d86dc6cccd8c6ece9c3fd009.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.flipboard/bottomsheet-core/1.4.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="eb5db1a2fff40e31592c12069212688b2293fb08">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/release/com.flipboard-bottomsheet-core-1.4.3_ab1bba2ee405dc35755aab2d86cf78835c7d93c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="593fbaec1c3e100480a2bd72457b64b7dde6ac2d">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tasks-9.2.0_52f954bec2537d9992653eee8faa693f48905dd0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_de269fb7812d9e44c70d7317479fc2a640df9976.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.8.0_27ac19e62f027bf23cb060a5ece15a0630f6c5e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.8.0_96a44273546a1627405599836c02a6014598c9d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b4671be3d1288bf4e5f527cd33e42909fbe4ecc6">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.8.0_2d3431d9dd4fbbd917548e2e5c61e25a6b6c9f0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_ff54cdf8d08168e49a21bb08ed41da14bcaecf71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.github.bluejamesbond/textjustify-android/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
         revision="23.0.2"
         sha1="9e3ac75a5e3f8ef059c7766dc9640e0487e32749">
-        <dex dex="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\pre-dexed\release\classes-22478e07ecd651f0a979cf87d05959668fdafd25.jar" />
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/release/com.github.bluejamesbond-textjustify-android-2.1.0_7161234251f4dfb7902a80ed65a801f27399ceac.jar" />
     </item>
     <item
-        jar="C:\Users\maximevin\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
         jumboMode="false"
-        revision="23.0.2"
-        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\pre-dexed\release\butterknife-7.0.1-ca67f2e29a691947c3e304886d9f42797b1bbab7.jar" />
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_09e857c5c34868d5626cbcd4a09db5259a769e96.jar" />
     </item>
     <item
-        jar="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_513ff7a56d6fd668f85730877e2cd423b96fd3cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
         revision="23.0.2"
-        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
-        <dex dex="C:\Users\maximevin\Documents\Android projects\paroisse\ParseStarterProject\build\intermediates\pre-dexed\release\classes-010a315bf02db31df89c5cd7203ee5862dd11005.jar" />
+        sha1="fb15fd9774b5c51dcb39d8e6fa1b6f06bcd1cd34">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-impl-9.2.0_cbf3604fb2349beda1fe7705cb28598619026eda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.github.aakira/expandable-layout/1.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1b2e3b65089ca2618085d7c5420acee280e03cb7">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.github.aakira-expandable-layout-1.4.0_1f2b44f393c976d9ca96bfa5a3e9fa0e453928ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_2191334e4be679797b1b5c5610cbb24b292c40f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/picasso-2.5.2_1c0756c414e06d476f5558a5267403e830282ae8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_e583d25d4474f925b0174e5e314bfeba935ca463.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.flipboard/bottomsheet-core/1.4.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="eb5db1a2fff40e31592c12069212688b2293fb08">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.flipboard-bottomsheet-core-1.4.3_ab1bba2ee405dc35755aab2d86cf78835c7d93c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.timehop.stickyheadersrecyclerview/library/0.4.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4967e0e95206c7ce96f6e90a4528bde27c9286c5">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.timehop.stickyheadersrecyclerview-library-0.4.2_a3c6d7aeedee3bb750d9cdd7d5c6ee97c3977fd2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="21bb89120d84fa29afeb0f9c0ebf415bc3b45a7e">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/release/com.google.firebase-firebase-messaging-9.2.0_64c2acd52868b45e84c647113ce14634796b7eb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_63da2b5fbe5091729b3c47b4f9cd443d927614cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_5c413b1d76d8a0eed55c50e5bc16b43d5f53091a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.github.bluejamesbond/textjustify-android/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9e3ac75a5e3f8ef059c7766dc9640e0487e32749">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.github.bluejamesbond-textjustify-android-2.1.0_7161234251f4dfb7902a80ed65a801f27399ceac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.flipboard/bottomsheet-commons/1.4.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ec0be4694636d723270811ed591da4abd54ccd1f">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.flipboard-bottomsheet-commons-1.4.3_156b8496e823f6e3babf8ccb7458a238e987484f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.4.0_ff54cdf8d08168e49a21bb08ed41da14bcaecf71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Maxime/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/Maxime/Documents/Android_projects/Paroisse/ParseStarterProject/build/intermediates/pre-dexed/debug/butterknife-annotations-8.4.0_e448f5a3fef72f3ac727eedda01241619a5cd2e7.jar" />
     </item>
 
 </items>

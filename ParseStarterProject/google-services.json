@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "255130916704",
+    "firebase_url": "https://paroisse-st-rieul-android.firebaseio.com",
+    "project_id": "paroisse-st-rieul-android",
+    "storage_bucket": "paroisse-st-rieul-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255130916704:android:77092f8ec3f1cde4",
+        "android_client_info": {
+          "package_name": "com.krealid.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255130916704-0ibek3assm8j2mioo75ntui7b64mc0og.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.krealid.starter",
+            "certificate_hash": "DCC85FD76ACE9CF9B1DB9222D1D906E220ADC19C"
+          }
+        },
+        {
+          "client_id": "255130916704-tvarr3dfq533bpopkr7e4mmjp4v4m1ua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDaidp-zY97MyQ-Z-QcG-VfI1x2w8CJyk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255130916704-tvarr3dfq533bpopkr7e4mmjp4v4m1ua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

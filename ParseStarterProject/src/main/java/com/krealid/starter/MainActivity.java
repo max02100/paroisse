@@ -13,9 +13,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.parse.ParseAnalytics;
-import com.krealid.starter.R;
-
+import com.google.firebase.crash.FirebaseCrash;
 
 public class MainActivity extends Activity {
 
@@ -23,6 +21,8 @@ public class MainActivity extends Activity {
   protected void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
       setContentView(R.layout.launch_screen);
+
+      FirebaseCrash.report(new Exception("My first Android non-fatal error"));
 
       new Handler().postDelayed(new Runnable() {
           @Override
@@ -32,7 +32,5 @@ public class MainActivity extends Activity {
               MainActivity.this.finish();
           }
       }, 3000);
-
-    ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }
 }

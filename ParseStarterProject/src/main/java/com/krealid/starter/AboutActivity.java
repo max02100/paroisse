@@ -12,7 +12,7 @@ import com.flipboard.bottomsheet.commons.IntentPickerSheetView;
 
 import java.util.Comparator;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -21,9 +21,9 @@ import butterknife.OnClick;
  */
 public class AboutActivity extends AppCompatActivity {
 
-    @Bind(R.id.bottomsheet)
+    @BindView(R.id.bottomsheet)
     BottomSheetLayout bottomSheetLayout;
-    @Bind(R.id.anim_toolbar)
+    @BindView(R.id.anim_toolbar)
     Toolbar mToolbar;
 
     @Override

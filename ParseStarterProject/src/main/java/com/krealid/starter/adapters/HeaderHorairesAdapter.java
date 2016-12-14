@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 import com.github.aakira.expandablelayout.ExpandableLayout;
@@ -107,23 +107,23 @@ public class HeaderHorairesAdapter extends RecyclerView.Adapter<HeaderHorairesAd
         return horairesHeaders.length;
     }
 
-    public static class ViewHolder extends RecyclerView.ViewHolder {
-        @Bind(R.id.headerHoraires)
+    static class ViewHolder extends RecyclerView.ViewHolder {
+        @BindView(R.id.headerHoraires)
         TextView title;
-        @Bind(R.id.horairesList)
+        @BindView(R.id.horairesList)
         TextView listHoraires;
-        @Bind(R.id.expandableLayout)
+        @BindView(R.id.expandableLayout)
         ExpandableRelativeLayout expandableLayout;
-        @Bind(R.id.button)
+        @BindView(R.id.button)
         RelativeLayout buttonLayout;
 
-        public ViewHolder(View itemView) {
+        ViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
         }
     }
 
-    public ObjectAnimator createRotateAnimator(final View target, final float from, final float to) {
+    private ObjectAnimator createRotateAnimator(final View target, final float from, final float to) {
         ObjectAnimator animator = ObjectAnimator.ofFloat(target, "rotation", from, to);
         animator.setDuration(300);
         animator.setInterpolator(Utils.createInterpolator(Utils.ACCELERATE_DECELERATE_INTERPOLATOR));

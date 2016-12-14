@@ -21,7 +21,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
@@ -92,13 +92,13 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        @Bind(R.id.news_image)
+        @BindView(R.id.news_image)
         ImageView mImageView;
-        @Bind(R.id.titleActu)
+        @BindView(R.id.titleActu)
         TextView title;
-        @Bind(R.id.introActu)
+        @BindView(R.id.introActu)
         DocumentView intro;
-        @Bind(R.id.introButton)
+        @BindView(R.id.introButton)
         ImageButton introButton;
 
         public ViewHolder(View itemView) {

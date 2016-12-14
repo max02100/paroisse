@@ -10,7 +10,7 @@ import android.view.View;
 
 import com.bluejamesbond.text.DocumentView;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
@@ -19,9 +19,9 @@ import butterknife.OnClick;
  */
 public class AboutEvangileActivity extends AppCompatActivity {
 
-    @Bind(R.id.anim_toolbar)
+    @BindView(R.id.anim_toolbar)
     Toolbar mToolbar;
-    @Bind(R.id.text_evangile_about)
+    @BindView(R.id.text_evangile_about)
     DocumentView textAbout;
 
     @Override

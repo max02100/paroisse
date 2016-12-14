@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- From: file:/C:/Users/maximevin/Documents/Android%20projects/paroisse/ParseStarterProject/build/intermediates/exploded-aar/com.flipboard/bottomsheet-core/1.4.3/res/values-sw720dp/values-sw720dp.xml -->
-    <eat-comment/>
-    <bool name="bottomsheet_is_tablet">true</bool>
-    <dimen name="bottomsheet_default_sheet_width">480dp</dimen>
-</resources>

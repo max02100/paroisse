@@ -12,4 +12,4 @@
         android:layout_below="@+id/titleEvangile"
         android:id="@+id/articleContent"/>
 
-</LinearLayout><!-- From: file:/C:/Users/maximevin/Documents/Android%20projects/paroisse/ParseStarterProject/src/main/res/layout/actu_text.xml -->
+</LinearLayout>

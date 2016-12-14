@@ -11,7 +11,7 @@ import android.view.View;
 
 import com.krealid.starter.adapters.HeaderHorairesAdapter;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
@@ -19,9 +19,9 @@ import butterknife.ButterKnife;
  */
 public class HorairesActivity extends AppCompatActivity {
 
-    @Bind(R.id.toolbar)
+    @BindView(R.id.toolbar)
     Toolbar mToolbar;
-    @Bind(R.id.simpleList)
+    @BindView(R.id.simpleList)
     RecyclerView recyclerView;
 
     @Override

@@ -8,9 +8,9 @@ package flipboard.bottomsheet;
 
 public final class R {
 	public static final class bool {
-		public static final int bottomsheet_is_tablet = 0x7f070004;
+		public static final int bottomsheet_is_tablet = 0x7f090001;
 	}
 	public static final class dimen {
-		public static final int bottomsheet_default_sheet_width = 0x7f080010;
+		public static final int bottomsheet_default_sheet_width = 0x7f070010;
 	}
 }

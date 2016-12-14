@@ -10,4 +10,4 @@
         android:centerColor="#00ffffff" />
 
     <corners android:radius="0dp" />
-</shape><!-- From: file:/C:/Users/maximevin/Documents/Android%20projects/paroisse/ParseStarterProject/src/main/res/drawable/gradient.xml -->
+</shape>

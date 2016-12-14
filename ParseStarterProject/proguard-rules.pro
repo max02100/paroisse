@@ -16,12 +16,9 @@
 #   public *;
 #}
 
-# Keep source file names, line numbers, and Parse class/method names for easier debugging
--keepattributes SourceFile,LineNumberTable
--keepnames class com.parse.** { *; }
-
-# Required for Parse
--keepattributes *Annotation*
+# Add this global rule
 -keepattributes Signature
--dontwarn com.squareup.**
--dontwarn okio.**
+
+-dontwarn com.squareup.okhttp.**
+-keep class com.krealid.starter.rss.** { *; }
+-keep class com.krealid.starter.services.** { *; }

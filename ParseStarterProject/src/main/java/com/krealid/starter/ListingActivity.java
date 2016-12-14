@@ -24,7 +24,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
@@ -32,9 +32,9 @@ import butterknife.ButterKnife;
  */
 public class ListingActivity extends AppCompatActivity {
 
-    @Bind(R.id.toolbar)
+    @BindView(R.id.toolbar)
     Toolbar mToolbar;
-    @Bind(R.id.simpleList)
+    @BindView(R.id.simpleList)
     RecyclerView recyclerView;
 
     private ArrayList<RssItem> feeds = new ArrayList<>();
@@ -128,11 +128,13 @@ public class ListingActivity extends AppCompatActivity {
             switch (choice){
                 case 0:
                     for (int i = 0; i < feeds.size(); i++) {
-                        if(feeds.get(i).getTitle().toLowerCase().contains("vangile de ".toLowerCase())){
-                            RssItem item = feeds.get(i);
-                            feeds.clear();
-                            feeds.add(item);
-                            break;
+                        if(feeds.get(i).getTitle() != null) {
+                            if(feeds.get(i).getTitle().toLowerCase().contains("vangile de ".toLowerCase())){
+                                RssItem item = feeds.get(i);
+                                feeds.clear();
+                                feeds.add(item);
+                                break;
+                            }
                         }
                     }
                     recyclerView.setAdapter(new EvangilesAdapter(feeds, ListingActivity.this));
